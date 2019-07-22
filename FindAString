@@ -1,0 +1,16 @@
+#Program to find the number of occurance of a substring
+
+def count_substring(string, sub_string):
+    c=0
+    l=len(sub_string)
+    for i in range(0,len(string)):
+       # print(string[i:l+i])
+        if (sub_string==string[i:l+i]):
+          # print(string[i:l])
+           c+=1
+    return c
+
+string = input().strip()
+sub_string = input().strip()
+count = count_substring(string, sub_string)
+print(count)
