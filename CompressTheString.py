@@ -1,4 +1,4 @@
-Given a string S. Suppose a character 'c' occurs consecutively n times in the string. Replace these consecutive occurrences of the character 'c' with (n,c) in the string.
+#Given a string S. Suppose a character 'c' occurs consecutively n times in the string. Replace these consecutive occurrences of the character 'c' with (n,c) in the string.
 
 #Program
 no = input()
