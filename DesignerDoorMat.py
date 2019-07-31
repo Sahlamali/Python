@@ -1,3 +1,33 @@
+#Design a door mat as follows
+
+#Input Format
+#A single line containing the space separated values of N and M.
+
+#Output Format
+#Output the design pattern.
+
+#Sample Input
+
+#9 27
+
+#Sample Output
+
+#------------.|.------------
+#---------.|..|..|.---------
+#------.|..|..|..|..|.------
+#---.|..|..|..|..|..|..|.---
+#----------WELCOME----------
+#---.|..|..|..|..|..|..|.---
+#------.|..|..|..|..|.------
+#---------.|..|..|.---------
+#------------.|.------------
+
+
+
+
+
+
+# Program
 ni=input().split(" ")
 m=int(ni[1])
 n=int(ni[0])
@@ -20,15 +50,15 @@ for i in range (0,ran):
     hash_-=3
     print(' ')
     num+=2
-
-for i in range (0,n):
+s=(m-7)//2
+for i in range (0,s):
     print("-",end="")
 print("WELCOME",end="")
-for i in range (0,n):
+for i in range (0,s):
     print("-",end="")
 print(' ')    
 num=num-2
-hash_=(n-1)//2
+hash_=3
 for i in range (0,ran):
     
     stick=1
